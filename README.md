@@ -1,27 +1,42 @@
-# Scripts for BLiMP experiments
+# Set up environment
+
+```
+pip install -r requirements.txt
+```
+
+# Download data
+
+```
+bash scripts/download_data.sh
+```
+
+# Perform experiments
 
 Sentence probability readout
 ```
-ll_blimp.sh
-ll_norm_blimp.sh
+sbatch scripts/ll_blimp.sh
+sbatch scripts/ll_climp.sh
+sbatch scripts/ll_norm_blimp.sh
+sbatch scripts/ll_norm_climp.sh
 ```
 
 In-template probability readout
 ```
-ll_intemplate_blimp.sh
-ll_intemplate_norm_blimp.sh
+sbatch scripts/ll_intemplate_blimp.sh
+sbatch scripts/ll_intemplate_climp.sh
+sbatch scripts/ll_intemplate_norm_blimp.sh
+sbatch scripts/ll_intemplate_norm_climp.sh
 ```
 
 Prompting
 ```
-prompting_blimp.sh
-prompting_yn_blimp.sh
+sbatch scripts/prompting_blimp.sh
+sbatch scripts/prompting_climp.sh
+sbatch scripts/prompting_yn_blimp.sh
+sbatch scripts/prompting_yn_climp.sh
 ```
 
-Note
-- Replace `blimp` with `climp` for CLiMP experiments
-
-# Scripts for tables and figures
+# Generate tables and figures
 
 tab:summary-mean
 ```
