@@ -1,0 +1,4 @@
+语言学家会认为下面的句子 A 语法正确，B 不正确。
+
+A：{sentence}
+B：{other_sentence}

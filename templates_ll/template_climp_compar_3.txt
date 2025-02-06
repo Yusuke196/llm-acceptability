@@ -1,0 +1,4 @@
+下面是一个语法正确的句子（A）和一个不正确的句子（B）。
+
+A：{sentence}
+B：{other_sentence}

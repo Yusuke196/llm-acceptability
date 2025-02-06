@@ -1,0 +1,4 @@
+A 是正确的英语句子，而 B 不是。
+
+A：{sentence}
+B：{other_sentence}

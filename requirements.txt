@@ -1,0 +1,26 @@
+# Python basics
+pytest
+tqdm
+jsonlines
+seaborn
+plotly
+# Data science
+numpy
+pandas
+scikit-learn
+kaleido
+# Deep learning
+torch
+peft
+# NLP
+transformers
+datasets
+accelerate
+huggingface_hub
+bitsandbytes
+sentencepiece
+protobuf
+outlines
+# optimum # not compatible with transformers-4.40.1
+auto-gptq
+spacy

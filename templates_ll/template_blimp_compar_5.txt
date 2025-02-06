@@ -1,0 +1,4 @@
+A is a correct English sentence, while B is not.
+
+A: {sentence}
+B: {other_sentence}

@@ -1,0 +1,4 @@
+{
+    "system_prompt": "您的任务是评估给定文本的质量。",
+    "user_template": "下面的句子在语言学上可以接受吗？请用“Yes”或“No”回答。\n\n{sentence}"
+}

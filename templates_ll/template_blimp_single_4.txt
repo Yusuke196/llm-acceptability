@@ -1,0 +1,3 @@
+Here is an English sentence that would be considered as linguistically acceptable.
+
+{sentence}

@@ -1,0 +1,4 @@
+The following sentence A is grammatically acceptable while B is not.
+
+A: {sentence}
+B: {other_sentence}

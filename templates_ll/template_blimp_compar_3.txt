@@ -1,0 +1,4 @@
+Here is a grammatically correct sentence (A) and an incorrect sentence (B).
+
+A: {sentence}
+B: {other_sentence}

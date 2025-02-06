@@ -1,0 +1,4 @@
+{
+    "system_prompt": "Your task is to compare the quality of given sentences.",
+    "user_template": "Which of the following sentences is more likely to be linguistically acceptable? Respond with A or B as your answer.\n\nA: {sentence_a}\nB: {sentence_b}\nAnswer: "
+}

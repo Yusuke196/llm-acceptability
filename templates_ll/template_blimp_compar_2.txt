@@ -1,0 +1,4 @@
+Linguists would consider the sentence A below as grammatically correct and B as incorrect.
+
+A: {sentence}
+B: {other_sentence}

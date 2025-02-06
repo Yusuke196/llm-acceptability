@@ -1,0 +1,4 @@
+{
+    "system_prompt": "您的任务是比较给定句子的质量。",
+    "user_template": "下列句子中，一个符合语法要求，另一个不符合语法要求。哪个可以接受？请用 A 或 B 作答。\n\nA：{sentence_a}\nB：{sentence_b}\n答案："
+}

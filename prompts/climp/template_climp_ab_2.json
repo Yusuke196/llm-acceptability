@@ -1,0 +1,4 @@
+{
+    "system_prompt": "您的任务是比较给定句子的质量。",
+    "user_template": "下面的句子只有一个语法正确，另一个不正确。哪个正确？请用 A 或 B 作答。\n\nA：{sentence_a}\nB：{sentence_b}\n答案："
+}

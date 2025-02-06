@@ -1,0 +1,3 @@
+The following sentence is grammatically acceptable.
+
+{sentence}

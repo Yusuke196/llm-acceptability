@@ -1,0 +1,4 @@
+在下面两个句子中，A 在语言上是可以接受的，但 B 不可以。
+
+A：{sentence}
+B：{other_sentence}
