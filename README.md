@@ -28,7 +28,7 @@ sbatch scripts/ll_intemplate_norm_blimp.sh
 sbatch scripts/ll_intemplate_norm_climp.sh
 ```
 
-Prompting
+Prompt-based methods
 ```
 sbatch scripts/prompting_blimp.sh
 sbatch scripts/prompting_climp.sh
@@ -58,6 +58,7 @@ tab:ensemble
 ```
 PYTHONPATH=. python src/analysis/majority_vote.py -d blimp --show_percent
 PYTHONPATH=. python src/analysis/majority_vote.py -d climp --show_percent
+PYTHONPATH=. python src/paper_writing/combine_tables.py -b results/blimp/majority_vote.csv -c results/climp/majority_vote.csv -d "Mixtral" "Mixtral-Instruct" "Yi-1.5" "Yi-1.5-Chat"
 ```
 
 tab:summary-max
