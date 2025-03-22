@@ -1,16 +1,18 @@
-# Set up environment
+# How to use
+
+## Set up environment
 
 ```
 pip install -r requirements.txt
 ```
 
-# Download data
+## Download data
 
 ```
 bash scripts/download_data.sh
 ```
 
-# Perform experiments
+## Perform experiments
 
 Sentence probability readout
 ```
@@ -36,7 +38,7 @@ sbatch scripts/prompting_yn_blimp.sh
 sbatch scripts/prompting_yn_climp.sh
 ```
 
-# Generate tables and figures
+## Generate tables and figures
 
 tab:summary-mean
 ```
@@ -74,3 +76,21 @@ tab:a-proportion
 PYTHONPATH=. python src/analysis/compute_ab_ratio.py
 PYTHONPATH=. python src/analysis/compute_ab_ratio.py -d climp
 ```
+
+# Citation
+
+```
+@misc{ide2025makellmsgrammaticalknowledge,
+      title={How to Make the Most of LLMs' Grammatical Knowledge for Acceptability Judgments},
+      author={Yusuke Ide and Yuto Nishida and Justin Vasselli and Miyu Oba and Yusuke Sakai and Hidetaka Kamigaito and Taro Watanabe},
+      year={2025},
+      eprint={2408.09639},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.09639},
+}
+```
+
+# Poster
+
+Follow [this link](https://github.com/user-attachments/files/19403719/Acceptability_Judgments_NAACL_2025_Poster.pdf) to view the poster.
